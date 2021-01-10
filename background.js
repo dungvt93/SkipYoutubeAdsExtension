@@ -1,3 +1,3 @@
 chrome.runtime.onInstalled.addListener(function(){
-    // console.log("hello chicken")
+    alert("extensions have been installed")
 })
