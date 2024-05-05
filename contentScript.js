@@ -1,6 +1,6 @@
 var observer = new MutationObserver(function (mutations) {
-    if ($(".ytp-ad-skip-button") != null) {
-        $(".ytp-ad-skip-button").click()
+    if ($(".ytp-skip-ad-button") != null) {
+        $(".ytp-skip-ad-button").click()
     }
 
     if ($(".ytp-ad-overlay-close-button") != null) {
